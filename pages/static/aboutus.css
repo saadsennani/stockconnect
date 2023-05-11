@@ -1,0 +1,250 @@
+body {
+    width: auto;
+    height: 100vh;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/sss.jpg') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: opacity(80%);
+      
+  }
+  
+  .introduction > p, 
+  .location > p,
+  .content-footer > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+  
+  .questions > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  /* -------------------------
+        Link Styles
+     -------------------------*/
+  
+  a {
+    font-weight: bold;
+    text-decoration: none;
+    /*color: #a1a1a1;*/
+    color: #f1da09;
+  }
+  
+  a:visited {
+    color: #f1da09;
+  }
+  
+  /* -------------------------
+        Global Styles
+     -------------------------*/
+  
+  .starcontainer h2 {
+    font-size: 2.8em;
+    margin-bottom: 0.2em;
+  }
+  
+  .starcontainerportfolio > h2 {
+    text-align: center;
+    font-size: 2.8em;
+    margin-bottom: 0.2em;
+  }
+  
+  .fa-star {
+    margin-bottom: 0 auto;
+  }
+  
+  hr {
+    border: 2px solid #f1da09;
+    width: 15.7em;
+    margin-top: -1em;
+    margin-bottom: 2em; 
+    background-color: #f1da09;
+  }
+  
+  hr, .fa-star {
+    background-color: #f1da09;
+    padding: 0 .25em
+  }
+  
+  .starcontainer .fa {
+    color:#f1da09;
+  }
+  
+  .starcontainerportfolio .fa {
+    color:#f1da09;
+    display: inline-block;
+  }
+  
+  /* -------------------------
+        Layout Declarations
+     -------------------------*/
+  
+  .masthead-heading, 
+  .masthead-intro,
+  .content-footer,
+  .starcontainer,
+  .starcontainerportfolio {
+    text-align: center;
+    text-decoration-color: #ffffff;
+  }
+  
+  .masthead {
+    background-image: url('images/sss.jpg');
+    background-repeat: no-repeat;
+    border-top: solid 1em #ffffff;
+    border-bottom: solid 1em #ffffff;
+    background-size: cover;
+    padding: 6em 0;
+  }
+  
+  .masthead > img {
+    max-height: 6em;
+    border-radius: 150%;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid #cde211;
+  }
+  
+  .masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+  }
+  
+  .masthead-heading {
+    margin-top: -0.2em;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  }
+  
+  .content-footer,
+  .introduction, 
+  .location, 
+  .questions {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+  
+  .questions {
+    padding-bottom: 1.5em;
+  }
+  
+  /* -------------------------
+      Portfolio
+     -------------------------*/
+  
+  li {
+      list-style: none;
+     }
+  
+  #container {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+      
+  }
+  .box {
+    float:left;
+    width:31%;
+    margin:1% 1% 93px 1%;
+  }
+  
+  .box img {
+    width: 100%;
+    display: block;
+    border-style: solid;
+    border-width:1.5px;
+  }
+  
+  button {
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .btn {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-style: none;
+    border-radius: 0.3em;
+    font-size: 1em;
+    text-shadow: none;
+    height: 3.3em;
+    width: 9.6em;
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+  
+  .btn:hover {
+    background-color: #ffffff;
+  }
+
+  
+  .footer-basic {
+  padding: 40px 0;
+  
+  color:#eeb90d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size: 18px;
+  line-height:0.9;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:28px;
+  width:50px;
+  height:50px;
+  line-height:50px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:2px solid rgb(255, 255, 255);
+  margin:0 15px;
+  color:inherit;
+  opacity: 0.9;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 2;
+}
+
+.footer-basic .copyright {
+  margin-top:20px;
+  text-align:center;
+  font-size:18px;
+  color:rgb(255, 254, 254);
+  margin-bottom:0;
+}
