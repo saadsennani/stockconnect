@@ -1,13 +1,4 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <title>StockConnect iStock </title>
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="/static/dashEMP.css">
-<!--
-  <style media="screen">
     a:link {
       text-decoration: none;
     }
@@ -19,7 +10,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image:url({% static 'images/nnn.jpg' %}) ;
+    background-image:url('images/nnn.jpg' ) ;
 
     }
 
@@ -153,63 +144,4 @@
     #check {
       display: none;
     }
-  </style> -->
-
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-
-
-</head>
-
-<body>
-
-  <input type="checkbox" id="check">
-  <!--header area start-->
-  <header style="padding-top: 0px;">
-    <label for="check">
-      <i style="padding-left: 60px;margin-top: 17px;" class="fas fa-bars" id="sidebar_btn"></i>
-    </label>
-    <div class="left_area">
-      <h3 style="color:rgb(250, 246, 6);  font-size:40px;font-weight:bold;text-shadow:4px 4px 4px rgb(0, 0, 0)" >StockConnect</h3>
-    </div>
-    <div class="right_area">
-      <a href="/" class="logout_btn"  style="text-shadow:3px 3px 3px rgb(0, 0, 0)"  >LOGOUT</a>
-    </div>
-  </header>
-  <!--header area end-->
-  <!--sidebar start-->
-  <div class="sidebar" style="margin-top:60px;">
-    <center>
-
-      <h4>{{request.user.first_name}}</h4>
-      <h6 style="color: rgb(240, 217, 15); font-size:15px; text-shadow:3px 3px 3px rgb(0, 0, 0)"> Employee </h6>
-
-    </center>
-
-    <a href="matstock.html"><i class="fas fa-edit"></i><span>Materials Stok</span></a>
-    <a href="facture.html"><i class="fas fa-money-check"></i><span>Facturation</span></a>
-    <a href="question.html"><i class="fas fa-question-circle"></i><span>Ask Question</span></a>
-    <a href="history.html"><i class="fas fa-bullhorn"></i><span>FAQ</span></a>
-  </div>
-  <!--sidebar end-->
-  
-  
-
-  <!--content start-->
-  <div class="content">
-    <br><br><br><br><br>
-    {% block content %}
-
-    {% endblock content %}
-
-
-    <br><br><br>
-  
-  </div>
-  <!--content end-->
-</body>
-
-</html>
-
-
 

@@ -10,7 +10,7 @@
 	<textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
 	<input type="submit" value="SUBMIT"/>
 </form>
-<style>
+{% comment %} <style>
 	@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {   
@@ -69,7 +69,7 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#ffffff; }
-</style>
+</style> {% endcomment %}
 </html>
 
 
@@ -84,8 +84,9 @@ textarea {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/static/contact.css">
 </head>
-<style>
+{% comment %} <style>
 	.footer-basic {
   padding: 40px 0;
   
@@ -146,7 +147,7 @@ textarea {
   margin-bottom:0;
 }
 
-</style>
+</style> {% endcomment %}
 <body>
     <div class="footer-basic">
         <footer>
