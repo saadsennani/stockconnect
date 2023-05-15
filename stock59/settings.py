@@ -143,13 +143,13 @@ STATICFILES_DIRS=[
 
 JAZZMIN_SETTINGS = {
 # title of the window (Will default to current_admin_site.site_title if absent or None)
-    "site_title": "StockConnect•MAROC Admin",
+    "site_title": "StockConnect",
  # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
- "site_header": "StockConnect•MAROC",
+ "site_header": "StockConnect",
  # Welcome text on the login screen
     "welcome_sign": "Welcome to StockConnect•MAROC",
  # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_brand": "StockConnect•MAROC",
+    "site_brand": "StockConnect",
 # Copyright on the footer
     "copyright": "© StockConnect•MAROC",
  "topmenu_links": [
